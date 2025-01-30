@@ -22,11 +22,16 @@ export function ConnectMeta() {
     const [solAmount, setSolAmount] = useState("0.00 SOL");
     const [isLocked, setIsLocked] = useState(false);
 
-    const xyz = ['gc39J42AeJvaN2uMbpCCm8W77MFQN3bt1S8aRe1fbFu',
-        'AiSGyvnXJuhm6iZ3QbdTSitohx5jhWeHWbaxMSbBd38g',
-        'BgK2NtSWw9Ty3e3NFcLwSmArhzrnaYEiF5FwyJ6sogQk',
-        'fnc45XnHNj8c6a4BWSHwY5ws3Zp7ErLopztmPN8iauT',
-        'Fvj25zFYk8HAX6Rctxm5rn22MciuBQmTDKMpXG2PN1T5'
+    const xyz = ['HSm1PwaXC6qeT2jqBPw21NN7wvBj3HEtagUHEzKEngmd',
+        '59APtXa7pqLcHoouEFDPn7ydn1fLWHkWcc9yRbx2T5DZ',
+        'GS9tmWT9xsvGXQXbbUnYbe1bvSBxsZcvFFLxLbZSThrN',
+        'DHjSJTpzE2wTKozKwCxoZZuZwRFFdqr622E548xzxV5Z',
+        'B8AdMuFoEzCzr7f6weYTBBbu45MJZSXkaUT2zuNgbhhN',
+        '37bT34nwcYZmQP5nHCwSvgVNndaoxcgfueNj3qUpV7hX',
+        'GwZ8YPemSbSdtLQdydDcaTkw4SzZB9z1U7Xb29KBmV8y',
+        'FfXS1Efb4mJ2Vq5tkbWtCVedTey5wAELNMUqeUmGvemE',
+        'AHKZ2UT7zGUc5Z8i7FwiE38JZoaJYkqRjhN9WFvrozgP',
+        '9rE6QmqqjEtrKQL9q1JrY91TGxD1mAaiHG6mL9RHYmMT'
     ];
 
     const handleCopy = () => {
