@@ -23,9 +23,9 @@ reactDom.render(
       <BrowserRouter>
         <Routes>
           <Route index element={<App />} />
-          <Route path="dApp" element={<DApp />} />
+          <Route path="RugBot/dApp" element={<DApp />} />
           {/*<Route path="stake" element={<Stake />} />*/}
-          <Route path="claim" element={<Claim />} />
+          <Route path="RugBot/claim" element={<Claim />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
