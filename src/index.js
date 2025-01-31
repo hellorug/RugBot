@@ -11,8 +11,15 @@ import Claim from './dApp_claim';
 
 const rootElement = document.getElementById("root");
 
+const config: Config = {
+  readOnlyChainId: Mainnet.chainId,
+  readOnlyUrls: {
+    [Mainnet.chainId]: 'https://rpc.ankr.com/eth',
+  },
+}
+
 reactDom.render(
-    <DAppProvider>
+    <DAppProvider config={config}>
       <BrowserRouter>
         <Routes>
           <Route index element={<App />} />
