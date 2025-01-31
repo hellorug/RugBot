@@ -11,21 +11,14 @@ import Claim from './dApp_claim';
 
 const rootElement = document.getElementById("root");
 
-const config: Config = {
-  readOnlyChainId: Mainnet.chainId,
-  readOnlyUrls: {
-    [Mainnet.chainId]: 'https://rpc.ankr.com/eth',
-  },
-}
-
 reactDom.render(
-    <DAppProvider config={config}>
+    <DAppProvider>
       <BrowserRouter>
         <Routes>
           <Route index element={<App />} />
-          <Route path="RugBot/dApp" element={<DApp />} />
+          <Route path="dApp" element={<DApp />} />
           {/*<Route path="stake" element={<Stake />} />*/}
-          <Route path="RugBot/claim" element={<Claim />} />
+          <Route path="claim" element={<Claim />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
