@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RugBot/static/css/main.edbd7719.css",
-    "main.js": "/RugBot/static/js/main.ad687c16.js",
+    "main.js": "/RugBot/static/js/main.b847fabb.js",
     "static/js/488.68521f19.chunk.js": "/RugBot/static/js/488.68521f19.chunk.js",
     "static/media/me_pic.png": "/RugBot/static/media/me_pic.3836bdb9e8e32ae158d1.png",
     "static/media/bnb-cat.svg": "/RugBot/static/media/bnb-cat.ab8fdc2b48fdfe601d11878f1911bec8.svg",
@@ -24,11 +24,11 @@
     "static/media/background-item-6.svg": "/RugBot/static/media/background-item-6.a1150ce5bd7e2c8274ce7a91c4931497.svg",
     "static/media/background-item-7.svg": "/RugBot/static/media/background-item-7.cf1116e4641b0e5d6547e21e03ef5d37.svg",
     "main.edbd7719.css.map": "/RugBot/static/css/main.edbd7719.css.map",
-    "main.ad687c16.js.map": "/RugBot/static/js/main.ad687c16.js.map",
+    "main.b847fabb.js.map": "/RugBot/static/js/main.b847fabb.js.map",
     "488.68521f19.chunk.js.map": "/RugBot/static/js/488.68521f19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edbd7719.css",
-    "static/js/main.ad687c16.js"
+    "static/js/main.b847fabb.js"
   ]
 }
