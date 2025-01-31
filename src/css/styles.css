@@ -71,6 +71,10 @@ img {
   width: 100%;
 }
 
+.MuiRadio-root.Mui-checked.MuiRadio-variantOutlined.MuiRadio-colorPrimary {
+  color: white !important;
+}
+
 @media screen and (min-width: 1024px) {
   html {
     font-size: 62.5%;
