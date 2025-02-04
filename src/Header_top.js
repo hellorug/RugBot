@@ -30,7 +30,7 @@ class Header_top extends React.Component {
           </button></form></a>
           <a href="https://t.me/+PppdKGpObPZmMWIx" target="_blank" rel="noopener noreferrer">
           <form>
-          <button className="btn btn--link text text--small text--medium" formaction="https://t.me/RugBot">
+          <button className="btn btn--link text text--small text--medium" formaction="https://t.me/+PppdKGpObPZmMWIx">
           <img className ="discord" alt="Telegram" src={Telegram}></img>
           </button>
           </form></a>
@@ -47,7 +47,7 @@ class Header_top extends React.Component {
           </button>
           </form>
           <form>
-          <button className="btn btn--link text text--small text--medium" formaction="https://t.me/RugBot">
+          <button className="btn btn--link text text--small text--medium" formaction="https://t.me/+PppdKGpObPZmMWIx">
           <img className ="discord2" alt="Telegram" src={Telegram}></img>
           </button>
           </form>
