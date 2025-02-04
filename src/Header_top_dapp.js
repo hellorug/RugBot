@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./images/RUGBOT-logo.png";
-import Twitter from "./images/twitter.svg";
+import Tiktok from "./images/tiktok.svg";
 import Telegram from "./images/telegram.svg";
 import Swap from "./images/swap-white.svg";
 import { Link } from "react-router-dom";
@@ -16,11 +16,11 @@ class Header_top extends React.Component {
         </div>
         <nav>
           <form>
-          <button className="btn btn--link text text--small text--medium" formaction="https://twitter.com/RugBot">
-          <img className ="discord" alt="Twitter" src={Twitter}></img>
+          <button className="btn btn--link text text--small text--medium" formaction="www.tiktok.com/@rugclub.ai">
+          <img className ="discord" alt="Tiktok" src={Tiktok}></img>
           </button></form>
           <form>
-          <button className="btn btn--link text text--small text--medium" formaction="https://t.me/RugBot">
+          <button className="btn btn--link text text--small text--medium" formaction="https://t.me/+PppdKGpObPZmMWIx">
           <img className ="discord" alt="Telegram" src={Telegram}></img>
           </button>
           </form>
