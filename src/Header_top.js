@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./images/RUGBOT-logo.png";
-import Twitter from "./images/twitter.svg";
+import Tiktok from "./images/tiktok.svg";
 import Telegram from "./images/telegram.svg";
 import Swap from "./images/swap-white.svg";
 import {Link as LinkR} from 'react-scroll';
@@ -16,19 +16,19 @@ class Header_top extends React.Component {
         </div>
         <nav className="header-nav">
           <ul className="list list--inline">
-          <LinkR to="teamLink" spy={true} smooth={true}><li className="list__item text text--small text--regular">
-              Team
+          <LinkR to="features" spy={true} smooth={true}><li className="list__item text text--small text--regular">
+              HowTo
             </li></LinkR>
             <LinkR to="features" spy={true} smooth={true}><li className="list__item text text--small text--regular">
               Features
             </li></LinkR>
           </ul>
-          <a href="https://twitter.com/RugBot" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.tiktok.com/@rugclub.ai" target="_blank" rel="noopener noreferrer">
           <form>
-          <button className="btn btn--link text text--small text--medium" formaction="https://twitter.com/RugBot">
-          <img className ="discord" alt="Twitter" src={Twitter}></img>
+          <button className="btn btn--link text text--small text--medium" formaction="https://www.tiktok.com/@rugclub.ai">
+          <img className ="discord" alt="Tiktok" src={Tiktok}></img>
           </button></form></a>
-          <a href="https://t.me/RugBot" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/+PppdKGpObPZmMWIx" target="_blank" rel="noopener noreferrer">
           <form>
           <button className="btn btn--link text text--small text--medium" formaction="https://t.me/RugBot">
           <img className ="discord" alt="Telegram" src={Telegram}></img>
@@ -42,8 +42,8 @@ class Header_top extends React.Component {
             </button></Link>
           </a>
           <form>
-          <button className="btn btn--link text text--small text--medium"  formaction="https://twitter.com/RugBot">
-          <img className ="discord2" alt="Twitter" src={Twitter}></img>
+          <button className="btn btn--link text text--small text--medium"  formaction="https://www.tiktok.com/@rugclub.ai">
+          <img className ="discord2" alt="Tiktok" src={Tiktok}></img>
           </button>
           </form>
           <form>
